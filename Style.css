@@ -1,0 +1,59 @@
+#title{
+background-size: auto;
+font-family: 'Courier New', Courier, monospace;
+align-items: center;
+}
+#InfoButton{
+    text-align: center;
+    width: auto;
+    height: auto;
+    display: flex;
+    border-block-color: black;
+    scrollbar-highlight-color: aqua;
+    margin: auto;
+   
+}
+p{
+   text-align: center;
+   align-self: flex-end;
+}
+body{
+    background-color: white;
+    
+}
+.column {
+    float: right;
+    width: 40%;
+    padding: 2px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/*.Css{
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+}
+.Html{
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+}
+.Java{
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    color: transparent;
+}
+.C{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    text-align: center;
+    
+}
+.instructions{
+    
+}
